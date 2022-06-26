@@ -82,7 +82,7 @@ section {
 } */
 .card{ 
     background:black;
-    border-radius: 20px;
+    border-radius: 30px;
     width: 70%;
     
     max-width: 500px;
@@ -96,7 +96,7 @@ section {
     padding:0px;   
     
 } 
-#homeh3{
+h3{
     font-size: 20px;
     color:greenyellow
 }
@@ -229,7 +229,7 @@ span{
 .btn{
     display: block;
     float: right;
-    background-color:black;
+    background-color:white;
     color:black;
     margin: 10px;
     padding: 5px;

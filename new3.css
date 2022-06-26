@@ -1,0 +1,239 @@
+
+body{
+    background:black;
+    color:white
+}
+
+/* navigation and logo  */
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1000;
+    background:silver;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1rem 9%;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1)
+
+
+} 
+#logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+#navigationbar a{
+    font-size: 20px;
+    color:red;
+    margin: 0 1rem;
+}
+
+#navigationbar a:hover{
+    color:blue;
+}
+
+/* end 1 */
+section {
+    padding:0px
+}
+ /* home page start */
+.page {
+    width:100%;
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     grid-gap:1.5rem;
+    align-items: center;
+    
+    /* font-size:30px; */
+  
+
+}
+
+/* .card{ 
+    background:black;
+    border-radius: 30px;
+    width: 70%; 
+    
+    max-width: 500px;
+    padding: 10px
+     
+ }*/
+ 
+ .homepage {
+    
+    text-align: center;
+    align-items:center;  
+    /* padding:10px 20px;    */
+    
+} 
+#homeh3{
+    font-size: 30px;
+    color:greenyellow
+}
+
+#homebtn{
+    display: inline-block;
+    padding: 10px 20px;
+    color:white;
+    font-size: 20px;
+    background:red;
+    border-radius: 30px;
+    width: 30%;
+    
+    max-width: 1200px;
+    padding: 10px
+}
+#paragraph{
+    font-size: 50px;
+    font-style:italic;
+    font-weight:bold;
+    color:white;
+    
+} 
+/* end of home page */
+
+/* about page start */
+.about{
+    /* display:grid; 20*/
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-gap: 0.7rem;
+    align-items: center;
+    min-height: 50vh;
+    color:white;
+}
+#abouth2{
+    font-size: 30px;
+    color:greenyellow;
+    text-align: center
+}
+#aboutparagraph{
+    font-size: 25px;
+    line-height: 30px;
+    padding: 20px;
+    font-style: italic;
+    font-family: "open sans",;
+}
+#abouth3{
+    font-size: 30px;
+    text-decoration: underline;
+    font-style: bold;
+    text-align: center;
+   
+} 
+
+/* recipe start */
+
+
+/* start *******/
+/* .mealItem{
+    display: flex;
+    float: left;
+    width: 400px;
+    font-size: 18px;
+    
+} */
+#meal-img{
+    width: 100%;
+    height: 250px;
+    border-radius:5px;
+}
+.mealItem{
+    display: inline;
+    float: left;
+    width: 300px;
+    margin: 10px;
+    background-color:white;
+    border-radius: 5px;
+    /* width: 100%;  */
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    /* max-width: 500px; */
+    /* padding: 5px; */
+   color:black
+
+}
+.mealItem:hover{
+    border-color: white;
+}
+
+
+.btn{
+    display: block;
+    float: right;
+    background-color:white;
+    color:black;
+    margin: 10px;
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+}
+p{
+    padding: 0px 10px ;
+}
+.ingredient-list{
+    padding: 15px;
+}
+#likeBtn{
+    float:left;
+    margin: 5px;
+}
+.h3instruction{
+    display: none;
+
+}
+.ingredient-list{
+    display: none;
+}
+
+#getRecipe{
+    background-color: yellowgreen;
+    color: black
+}
+
+#form1{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+/* search input */
+#recipeSearch{
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 10px
+}
+/* heading  results*/
+#search-recipe{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    margin-bottom: 0px;}
+
+
+#searchcolor{
+    background-color: silver;
+    margin-top: 30px;
+
+}
+
+/* search button */
+#searchInput{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(228, 69, 69);
+    color: white
+}
+/*  */
